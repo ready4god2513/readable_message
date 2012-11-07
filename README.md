@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReadableMessage
 
 Print out exceptions (or any message that responds to :class, :message, and/or :backtrace) to the console
@@ -30,3 +31,9 @@ or
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+readable_message
+================
+
+Prints out an exception message, class name, and backtrace to the console.
+>>>>>>> b2b15f56f097aa6ad2e8ca19d0d17cdd6ac072a1
