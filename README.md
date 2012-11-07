@@ -1,4 +1,4 @@
-# ReadableException
+# ReadableMessage
 
 Print out exceptions (or any message that responds to :class, :message, and/or :backtrace) to the console
 surrounded by "*" * 80.  Makes it a bit easier to debug errors printed to standard out.
@@ -21,7 +21,7 @@ Or install it yourself as:
 
 `console(e)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
 or
-`ReadableException::Formatter.new(e).to_s`
+`ReadableMessage::Formatter.new(e).to_s`
 
 ## Contributing
 
