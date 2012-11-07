@@ -7,7 +7,7 @@ surrounded by "*" * 80.  Makes it a bit easier to debug errors printed to standa
 
 Add this line to your application's Gemfile:
 
-    gem 'readable_exceptions'
+    gem 'readable_message'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install readable_exceptions
+    $ gem install readable_message
 
 ## Usage
 
