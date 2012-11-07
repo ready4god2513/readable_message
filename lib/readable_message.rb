@@ -43,8 +43,10 @@ module ReadableMessage
   
 end
 
-module Kernel
-  def readable(msg, *args)
-    ReadableMessage::Formatter.new(msg, args).to_s
+class Object
+  def to_readable(*args)
+    ReadableMessage::Formatter.new(self, args).to_s
   end
 end
+
+"brandon".to_readable

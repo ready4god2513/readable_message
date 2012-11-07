@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe ReadableMessage do
   
-  subject { Kernel }
-  it { should respond_to(:readable) }
+  subject { "my string" }
+  it { should respond_to(:to_readable) }
   
 end
