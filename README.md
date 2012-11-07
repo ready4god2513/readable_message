@@ -19,9 +19,9 @@ Or install it yourself as:
 
 ## Usage
 
-`readable(e, *args)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
+`obj.to_readable(*args)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
 or
-`ReadableMessage::Formatter.new(e, *args).to_s`
+`ReadableMessage::Formatter.new(obj, *args).to_s`
 
 where `*args` is a list of methods that should be called on the object (to_s, to_i, backtrace, etc)
 
