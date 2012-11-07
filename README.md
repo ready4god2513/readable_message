@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-`console(e, *args)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
+`readable(e, *args)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
 or
 `ReadableMessage::Formatter.new(e, *args).to_s`
 
