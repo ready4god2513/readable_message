@@ -48,5 +48,3 @@ class Object
     ReadableMessage::Formatter.new(self, args).to_s
   end
 end
-
-"brandon".to_readable
