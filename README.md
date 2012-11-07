@@ -19,9 +19,19 @@ Or install it yourself as:
 
 ## Usage
 
-`console(e)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
+`console(e, *args)` // Takes a string or any object that responds to :class, :message, and/or :backtrace
 or
-`ReadableMessage::Formatter.new(e).to_s`
+`ReadableMessage::Formatter.new(e, *args).to_s`
+
+where `*args` is a list of methods that should be called on the object (to_s, to_i, backtrace, etc)
+
+The output to console will appear something as-
+
+  ********************************************************************************
+  String
+  "hi"
+  ********************************************************************************
+
 
 ## Contributing
 
